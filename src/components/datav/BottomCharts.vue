@@ -3,10 +3,15 @@
   <div class="bottom-charts">
     <div class="bc-header">
       <div>最新新闻咨询</div>
-      <div @click="goPage1('http://datav.jiaminghi.com/')">点击此处跳转至新闻页面1</div>
-      <div @click="goPage2('https://github.com/')">点击此处跳转至新闻页面2</div>
-      <div @click="goPage3('http:///www.baidu.com')">点击此处跳转至新闻页面3</div>
-      <div @click="goPage4('http://www.xinhuanet.com/')">点击此处跳转至新闻页面4</div>
+      <dv-decoration-6 style="width:670px;height:20px" />
+      <p></p>
+      <div class="Thing_herl">
+        <div @click="goPage1('http://datav.jiaminghi.com/')">点击此处跳转至新闻页面1</div>
+        <div @click="goPage2('https://github.com/')">点击此处跳转至新闻页面2</div>
+        <div @click="goPage3('http:///www.baidu.com')">点击此处跳转至新闻页面3</div>
+        <div @click="goPage4('http://www.xinhuanet.com/')">点击此处跳转至新闻页面4</div>
+      </div>
+
     </div>
 
   </div>
@@ -43,8 +48,17 @@ export default {
     align-items: center;
     width: 100%;
     height: 100%;
-    font-size:20px;
+    font-size: 40px;
     text-align: center;
   }
+
+    .Thing_herl{
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      font-size: 20px;
+      text-align: center;
+    }
 }
 </style>

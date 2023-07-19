@@ -140,6 +140,7 @@ export default {
       }
 
       .station-info {
+        width: auto;
         height: 80px;
         display: flex;
         align-items: center;

@@ -57,7 +57,6 @@ export default {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin-bottom: 20px;
     }
 
   // .lc1-details {

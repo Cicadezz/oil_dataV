@@ -24,8 +24,8 @@
         <dv-border-box-3 class="left-chart-container">
 
           <Left-Chart-1 />
-          <!-- <Left-Chart-2 />
-          <Left-Chart-3 /> -->
+          <Left-Chart-2 />
+          <!--<Left-Chart-3 /> -->
 
         </dv-border-box-3>
 
@@ -44,11 +44,11 @@
 
               </dv-border-box-3>
 
-              <dv-border-box-4 class="rmctc-chart-2" :reverse="true">
+              <dv-border-box-3 class="rmctc-chart-2" :reverse="true">
 
                 <Right-Chart-2 />
 
-              </dv-border-box-4>
+              </dv-border-box-3>
             </div>
           </div>
 
@@ -66,7 +66,7 @@
 
 <script>
 import LeftChart1 from './LeftChart1'
-// import LeftChart2 from './LeftChart2'
+import LeftChart2 from './LeftChart2'
 // import LeftChart3 from './LeftChart3'
 
 import CenterCmp from './CenterCmp'
@@ -80,7 +80,7 @@ export default {
   name: 'DataView',
   components: {
     LeftChart1,
-    // LeftChart2,
+    LeftChart2,
     // LeftChart3,
     CenterCmp,
     RightChart1,

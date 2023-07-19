@@ -1,11 +1,11 @@
 <template>
   <div class="right-chart-1">
-    <div class="rc1-header">赵六收费站</div>
+    <div class="rc1-header">各中心拜访数量总数</div>
 
     <div class="rc1-chart-container">
       <div class="left">
-        <div class="number">262</div>
-        <div>设备运行总数</div>
+        <div class="number">1315</div>
+        <div>拜访数量总数</div>
       </div>
 
       <dv-capsule-chart class="right" :config="config" />
@@ -21,23 +21,23 @@ export default {
       config: {
         data: [
           {
-            name: '收费系统',
-            value: 25
+            name: '中心1',
+            value: 325
           },
           {
-            name: '通信系统',
-            value: 66
+            name: '中心2',
+            value: 266
           },
           {
-            name: '监控系统',
-            value: 123
+            name: '中心3',
+            value: 223
           },
           {
-            name: '供配电系统',
-            value: 72
+            name: '中心4',
+            value: 172
           },
           {
-            name: '其他',
+            name: '中心5',
             value: 99
           }
         ],
@@ -56,6 +56,7 @@ export default {
   flex-direction: column;
 
   .rc1-header {
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
     height: 30px;

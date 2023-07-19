@@ -1,31 +1,33 @@
 <template>
   <div class="left-chart-1">
-    <div class="lc1-header">T5中心信息</div>
-    <div class="lc1-details">本月事件总数<span>220</span></div>
-    <dv-capsule-chart class="lc1-chart" :config="config" />
+    <div class="lc1-header">竞争对手动态</div>
+      <div class="text_hrel">
+    <div @click="goPage1('http://datav.jiaminghi.com/')">对手动态1</div>
+    <div @click="goPage2('https://github.com/')">对手动态2</div>
+    <div @click="goPage3('http:///www.baidu.com')">对手动态3</div>
+    <div @click="goPage4('http://www.xinhuanet.com/')">对手动态4</div>
     <dv-decoration-2 style="height:10px;" />
+  </div>
+    <!-- <div class="lc1-details">本月事件总数<span>220</span></div> -->
+    <!-- <dv-capsule-chart class="lc1-chart" :config="config" />-->
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'LeftChart1',
-  data () {
-    return {
-      config: {
-        data: [
-          {
-            name: '拜访客户数量',
-            value: 160
-          },
-          {
-            name: '招投标数',
-            value: 60
-          }
-        ],
-        colors: ['#00baff', '#3de7c9'],
-        unit: '数'
-      }
+  methods: {
+    goPage1 (url) {
+      window.open(url, '_blank')
+    },
+    goPage2 (url) {
+      window.open(url, '_blank')
+    },
+    goPage3 (url) {
+      window.open(url, '_blank')
+    },
+    goPage4 (url) {
+      window.open(url, '_blank')
     }
   }
 }
@@ -48,24 +50,33 @@ export default {
     font-size: 30px;
     margin-bottom: 20px;
   }
-
-  .lc1-details {
-    height: 50px;
-    font-size: 16px;
-    display: flex;
+    .text_hrel{
+    text-align: center;
+    height: 40px;
+    display: block ;
+    justify-content: center;
     align-items: center;
-    text-indent: 20px;
-
-    span {
-      color: #096dd9;
-      font-weight: bold;
-      font-size: 35px;
-      margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
     }
-  }
 
-  .lc1-chart {
-    flex: 1;
-  }
+  // .lc1-details {
+  //   height: 50px;
+  //   font-size: 16px;
+  //   display: flex;
+  //   align-items: center;
+  //   text-indent: 20px;
+
+  //   span {
+  //     color: #096dd9;
+  //     font-weight: bold;
+  //     font-size: 35px;
+  //     margin-left: 20px;
+  //   }
+  // }
+
+  // .lc1-chart {
+  //   flex: 1;
+  // }
 }
 </style>

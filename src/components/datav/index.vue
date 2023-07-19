@@ -24,8 +24,8 @@
         <dv-border-box-3 class="left-chart-container">
 
           <Left-Chart-1 />
-          <Left-Chart-2 />
-          <Left-Chart-3 />
+          <!-- <Left-Chart-2 />
+          <Left-Chart-3 /> -->
 
         </dv-border-box-3>
 
@@ -66,8 +66,8 @@
 
 <script>
 import LeftChart1 from './LeftChart1'
-import LeftChart2 from './LeftChart2'
-import LeftChart3 from './LeftChart3'
+// import LeftChart2 from './LeftChart2'
+// import LeftChart3 from './LeftChart3'
 
 import CenterCmp from './CenterCmp'
 
@@ -80,8 +80,8 @@ export default {
   name: 'DataView',
   components: {
     LeftChart1,
-    LeftChart2,
-    LeftChart3,
+    // LeftChart2,
+    // LeftChart3,
     CenterCmp,
     RightChart1,
     RightChart2,

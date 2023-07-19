@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="left-chart-3">
     <div class="lc3-header">王五收费站</div>
     <div class="lc3-details">设备运行总数<span>245</span></div>
@@ -76,4 +76,4 @@ export default {
     flex: 1;
   }
 }
-</style>
+</style> -->

@@ -4,7 +4,6 @@
     <div class="bc-header">
       <div>最新新闻咨询</div>
       <dv-decoration-6 style="width:670px;height:20px" />
-      <p></p>
       <div class="Thing_herl">
         <div @click="goPage1('http://datav.jiaminghi.com/')">点击此处跳转至新闻页面1</div>
         <div @click="goPage2('https://github.com/')">点击此处跳转至新闻页面2</div>

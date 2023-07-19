@@ -3,17 +3,18 @@
     <div class="rc1-header">各中心招投标数量</div>
 
     <div class="rc1-chart-container">
-      <div class="left">
+      <!-- <div class="left">
         <div class="number">415</div>
         <div>招投标总数</div>
-      </div>
-
-      <dv-capsule-chart class="right" :config="config" />
+      </div> -->
+      <dv-scroll-ranking-board class="right" :config="config"/>
+      <!-- <dv-capsule-chart class="right" :config="config" /> -->
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'RightChart1',
   data () {
@@ -22,26 +23,33 @@ export default {
         data: [
           {
             name: '中心1',
-            value: 88
-          },
-          {
-            name: '中心2',
-            value: 72
-          },
-          {
-            name: '中心3',
             value: 55
           },
           {
+            name: '中心2',
+            value: 120
+          },
+          {
+            name: '中心3',
+            value: 78
+          },
+          {
             name: '中心4',
-            value: 41
+            value: 66
           },
           {
             name: '中心5',
-            value: 33
+            value: 80
+          },
+          {
+            name: '中心6',
+            value: 45
+          },
+          {
+            name: '中心7',
+            value: 29
           }
-        ],
-        unit: '件'
+        ]
       }
     }
   }
@@ -68,27 +76,29 @@ export default {
     display: flex;
   }
 
-  .left {
-    width: 30%;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  // .left {
+  //   width: 30%;
+  //   font-size: 16px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
 
-    .number {
-      font-size: 34px;
-      color: #096dd9;
-      font-weight: bold;
-      margin-bottom: 30px;
-    }
-  }
+  //   .number {
+  //     font-size: 34px;
+  //     color: #096dd9;
+  //     font-weight: bold;
+  //     margin-bottom: 30px;
+  //   }
+  // }
 
   .right {
     flex: 1;
     padding-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     box-sizing: border-box;
+    font-weight: bolder;
   }
 }
 </style>

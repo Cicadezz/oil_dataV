@@ -7,7 +7,7 @@
     </div>
 
     <div class="cc-details">
-      <div>时间总数</div>
+      <div>事件总数</div>
       <div class="card">2</div>
       <div class="card">1</div>
       <div class="card">2</div>
@@ -28,7 +28,7 @@
 
       <div class="ccmc-right">
         <div class="station-info">
-          <span>317</span>其他
+          <span>393</span>其他
         </div>
       </div>
 

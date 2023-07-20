@@ -6,7 +6,7 @@
     <div @click="goPage2('https://github.com/')">对手动态2</div>
     <div @click="goPage3('http:///www.baidu.com')">对手动态3</div>
     <div @click="goPage4('http://www.xinhuanet.com/')">对手动态4</div>
-    <dv-decoration-2 style="height:10px;" />
+    <dv-decoration-8 style="width:100%;height:50px;" />
   </div>
     <!-- <div class="lc1-details">本月事件总数<span>220</span></div> -->
     <!-- <dv-capsule-chart class="lc1-chart" :config="config" />-->

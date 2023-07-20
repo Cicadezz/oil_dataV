@@ -2,12 +2,12 @@
   <div class="left-chart-2">
     <div class="lc2-header">公司项目动态</div>
       <div class="text_hrel">
-    <div @click="goPage1('http://datav.jiaminghi.com/')">对手动态1</div>
-    <div @click="goPage2('https://github.com/')">对手动态2</div>
-    <div @click="goPage3('http:///www.baidu.com')">对手动态3</div>
-    <div @click="goPage4('http://www.xinhuanet.com/')">对手动态4</div>
-    <dv-decoration-2 style="height:10px;" />
-    </div>
+        <div @click="goPage1('http://datav.jiaminghi.com/')">公司动态1</div>
+        <div @click="goPage2('https://github.com/')">公司动态2</div>
+        <div @click="goPage3('http:///www.baidu.com')">公司动态3</div>
+        <div @click="goPage4('http://www.xinhuanet.com/')">公司动态4</div>
+        <dv-decoration-5 style="width:100%;height:40px;" />
+      </div>
     <!-- <div class="lc2-details">设备运行总数<span>245</span></div>
     <dv-charts class="lc2-chart" :option="option" /> -->
   </div>

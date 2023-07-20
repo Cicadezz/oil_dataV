@@ -24,6 +24,7 @@
         <dv-border-box-3 class="left-chart-container">
 
           <Left-Chart-1 />
+          <p></p>
           <Left-Chart-2 />
           <!--<Left-Chart-3 /> -->
 
